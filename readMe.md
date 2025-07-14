@@ -217,4 +217,4 @@ D)
 ✅ Answer: B
 
 
-Here are the questions just fill it in the js and put True where on the correct answer I'll put the answers myself
+Here are the questions just fill it in the js and put True where on the correct answer I'll put the answers myself. don't cry the question title. the questions
