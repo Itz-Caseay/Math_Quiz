@@ -1,16 +1,4 @@
-Excellent! Let’s make 20 Advanced Level Mathematics multiple-choice questions.
 
-Each will include:
-
-✅ Name of the question
-✅ The question itself
-✅ Four options (A–D)
-✅ The correct answer
-
-I’ll make them suitable for A-level (UK-style) difficulty – including pure maths, calculus, algebra, trigonometry, vectors, etc.
-
-
----
 
 1. Quadratic Factorisation
 
@@ -229,10 +217,4 @@ D)
 ✅ Answer: B
 
 
----
-
-19. Exponential Derivative
-
-Question: (\frac{d}{dx}(e
-
-Are the questions just fill it in thr js
+Here are the questions just fill it in the js and put True where on the correct answer I'll put the answers myself
