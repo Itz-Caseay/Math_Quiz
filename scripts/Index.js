@@ -36,7 +36,7 @@ const questions = [
         ]
     },
     {
-        questions: "Find tge area of a triangle of base 6cm and height 4cm",
+        questions: "Find the area of a triangle of base 6cm and height 4cm",
         answers: [
             {text: "12 cm²", correct: true},
             {text: "10 cm²", correct: false},
