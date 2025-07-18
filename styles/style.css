@@ -69,3 +69,72 @@ body{
 .incorrect{
     background: #ff9393;
 }
+
+.bxt{
+  display: block;
+  width: 120px;
+  height: 40px;
+  align-self: center;
+  margin: 25px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.bxt:hover{
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#contact{
+  display: none;
+  margin: 15px;
+  width: 380px;
+  height: 180px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.whatsapp{
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+
+.whatsapp h3{
+  margin: 10px;
+  text-align: center;
+}
+
+.hander{
+  display: flex;
+  margin: 5px;
+}
+
+.whatsapp a{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+a img{
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  display: flex;
+}
+
+.hander span{
+  margin: 5px;
+  display: flex;
+  font-weight: bold;
+}

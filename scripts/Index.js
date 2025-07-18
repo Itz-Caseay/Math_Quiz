@@ -1,74 +1,137 @@
 const questions = [
     {
-        questions: "Which is the largest animal in the world?",
+        questions: "Simplify: 3x - 2x + 4",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue Whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "A. x + 4", correct: true},
+            {text: "B. x - 4", correct: false},
+            {text: "C. x + 2", correct: false},
+            {text: "D. x - 2", correct: false},
         ]
     },
     {
-        questions: "Who is the best rapper prsently?",
+        questions: "Solve: 2x + 5 = 15",
         answers: [
-            {text: "Caseay", correct: true},
-            {text: "F Dior", correct: false},
-            {text: "Fosaj Rexz", correct: false},
-            {text: "Dhiip Sv", correct: false},
+            {text: "A. 10", correct: false},
+            {text: "B.  5", correct: true},
+            {text: "C. -5", correct: false},
+            {text: "D. 20", correct: false},
         ]
     },
     {
-        questions: "Which language is not a programming language?",
+        questions: "What's the value of pie?",
         answers: [
-            {text: "C+", correct: false},
-            {text: "Python", correct: false},
-            {text: "Html", correct: true},
-            {text: "Java", correct: false},
+            {text: "A. 2/7", correct: false},
+            {text: "B. 3.11", correct: false},
+            {text: "C. 3.14", correct: true},
+            {text: "D. 7/22", correct: false},
         ]
     },
     {
-        questions: "Which group is Caseay a Member?",
+        questions: "Find the value of: 3/5 × 10/9",
         answers: [
-            {text: "CA_Studio", correct: false},
-            {text: "ABS'Studio", correct: true},
-            {text: "Cartel NT", correct: false},
-            {text: "Shiiruken Prod", correct: false},
+            {text: "A. 9/5", correct: false},
+            {text: "B. 2/3", correct: true},
+            {text: "C. 3/2", correct: false},
+            {text: "D. 5/9", correct: false},
         ]
     },
     {
-        questions: "Who Invented Html?",
+        questions: "Find tge area of a triangle of base 6cm and height 4cm",
         answers: [
-            {text: "Tim Berners-Lee", correct: true},
-            {text: "Mark Zuckerberg", correct: false},
-            {text: "Higgins William", correct: false},
-            {text: "Simon HTML", correct: false},
+            {text: "12 cm²", correct: true},
+            {text: "10 cm²", correct: false},
+            {text: "20 cm²", correct: false},
+            {text: "20 cm²", correct: false},
         ]
     },
     {
-        questions: "Who is the best for the legends rapper?",
+        questions: "What is the mean of 5, 10, 15, 20, 25?",
         answers: [
-            {text: "Xxxtentacion", correct: true},
-            {text: "Pop Smoke", correct: false},
-            {text: "Juice wrld", correct: false},
-            {text: "King Von", correct: false},
+            {text: "A. 15", correct: true},
+            {text: "B. 12", correct: false},
+            {text: "C. 17", correct: false},
+            {text: "D. 10", correct: false},
         ]
     },
     {
-        questions: "Which language is a framework language?",
+        questions: "If a=2 and b=8. Find the value of a.b",
         answers: [
-            {text: "C+", correct: false},
-            {text: "Django", correct: true},
-            {text: "Go", correct: false},
-            {text: "Java", correct: false},
+            {text: "A. 12", correct: false},
+            {text: "B. 16", correct: false},
+            {text: "C. 10", correct: true},
+            {text: "D. 4", correct: false},
         ]
     },
     {
-        questions: "Which year did the first world erupted?",
+        questions: "Convert 120° to radians (pie = 3.14)",
         answers: [
-            {text: "1940", correct: false},
-            {text: "1914", correct: true},
-            {text: "1884", correct: false},
-            {text: "1934", correct: false},
+            {text: "A. 2.09", correct: true},
+            {text: "B. 3.14", correct: false},
+            {text: "C. 1.57", correct: false},
+            {text: "D. 4.71", correct: false},
+        ]
+    },
+    {
+        questions: "Find the gradient of a lune through (1, 2) and (3, 6)",
+        answers: [
+            {text: "A. 2", correct: true},
+            {text: "B. 4", correct: false},
+            {text: "C. 3", correct: false},
+            {text: "D. 1", correct: false},
+        ]
+    },
+    {
+        questions: "The L.C.M of 4 and 6 is?",
+        answers: [
+            {text: "A. 24", correct: false},
+            {text: "B. 12", correct: true},
+            {text: "C. 10", correct: false},
+            {text: "D. 6", correct: false},
+        ]
+    },
+    {
+        questions: "If 30% of a number is 60, what is that nunber?",
+        answers: [
+            {text: "A. 180", correct: false},
+            {text: "B. 150", correct: false},
+            {text: "C. 120", correct: false},
+            {text: "D. 200", correct: true},
+        ]
+    },
+    {
+        questions: "If angle A = 40° and angle B = 65°. Find angle C",
+        answers: [
+            {text: "A. 55°", correct: false},
+            {text: "B. 75°", correct: true},
+            {text: "C. 65°", correct: false},
+            {text: "D. 35°", correct: false},
+        ]
+    },
+    {
+        questions: "The volume of a cube with side 3cm is:",
+        answers: [
+            {text: "A. 6cm³", correct: false},
+            {text: "B. 9cm³", correct: false},
+            {text: "C. 27cm³", correct: true},
+            {text: "D. 18cm³", correct: false},
+        ]
+    },
+     {
+        questions: "If y = 2x + 1. Find y when x = 4",
+        answers: [
+            {text: "A. 7", correct: false},
+            {text: "B. 8", correct: false},
+            {text: "C. 9", correct: true},
+            {text: "D. 6", correct: false},
+        ]
+    },
+    {
+        questions: "A goat is being tied a rope of 7cm radius in a field to eat grass. And the goat eats in a circular manner. What's the area of grass eaten by the goat?",
+        answers: [
+            {text: "A. The answer is not here", correct: false},
+            {text: "B. 81cm²", correct: false},
+            {text: "C. 200cm²", correct: false},
+            {text: "D. 154cm²", correct: true},
         ]
     }
 ];
@@ -159,3 +222,7 @@ nextButton.addEventListener("click", () => {
 });
 
 startQuiz()
+
+function show() {
+  document.getElementById('contact').style.display = 'flex';
+}
