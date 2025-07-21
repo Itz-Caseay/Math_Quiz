@@ -143,7 +143,7 @@ a img{
   @media (max-width: 720px){
     .bxt{
       display: block;
-      width: 120px;
+      width: 160px;
       height: 40px;
       align-self: center;
       margin: 25px;
