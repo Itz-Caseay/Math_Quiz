@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-shadow: border-box;
+}
+/* Any place tgat a picture is suppose to be replace it there like tge scary pics i put to fill the space  */
+body{
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.container{
+  width: 80%;
+  height: 80vh;
+  background: skyblue;
+  padding: 20px;
+  margin-top: 100px;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0px 0px 10px;
+}
+
+.course{
+  width: 35%;
+  height: 80%;
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+  display: block;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.image{
+  width: 100%;
+  height: 200px;
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.contents{
+  display: block;
+  height: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.contents h2{
+  margin: 15px;
+}
+
+.contents p{
+  color: #00033;
+  margin: 10px;
+}
+
+.plan{
+  width: 80%;
+  padding: 35px;
+  margin-top: 35px;
+  display: flex;
+  background: transparent;
+}
+
+.first{
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.third{
+  justify-content: space-between;
+  display: flex;
+}
+
+.third img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.fourth{
+  width: 20%;
+  height: 100%;
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 220px;
+}
+
+.fourth button{
+  width: 50%;
+  height: 40px;
+  border: none;
+  margin-right: 45px;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.first-1{
+  width: 80%;
+  height: 40px;
+  display: block;
+  background: transparent;
+  align-self: center;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+button{
+  width: 80%;
+  height: 50px;
+  display: block;
+  background: skyblue;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  align-self: center;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.btn{
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
